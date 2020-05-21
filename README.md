@@ -9,7 +9,5 @@
 7 - cd bin/   \
 8 - ./bin/kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic TopicName \
 9 -  ./bin/kafka-topics.sh --list --zookeeper zookeeper:2181    -> list all topics  \
-10 - ./bin/kafka-console-consumer.sh  --bootstrap-server localhost:9092 --topic NameTopic --from-beginning  -> to view history topics  \  
-11 \ 
-12 \
-13 \ 
+10 - ./bin/kafka-console-consumer.sh  --bootstrap-server localhost:9092 --topic NameTopic --from-beginning  -> to view history topics    
+
