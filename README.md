@@ -1,6 +1,6 @@
 # kafka Zookeper Docker image
 
-1 -  docker-compose -f docker-compose.yml up
+1 -  docker-compose -f docker-compose.yml up \
 2 - docker-compose -f docker-compose.yml up -d
 3 -  docker ps -> view instance running
 4 -  docker exec -it kafka /bin/sh  -> terminal
